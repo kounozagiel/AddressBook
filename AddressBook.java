@@ -21,7 +21,7 @@ public class AddressBook {
         BuddyInfo buddy2 = new BuddyInfo("Jungkook", "123 Korea", "613213321");
         AddressBook address1 = new AddressBook();
         address1.addBuddy(buddy2);
-
+        address1.removeBuddy(buddy2);
     }
 
 }
