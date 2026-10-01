@@ -18,6 +18,9 @@ public class AddressBook {
         buddy1.remove(buddy);
     }
 
+    public int getBuddyCount(){
+        return buddy1.size();
+    }
 
     public static void main(String[] args) {
         BuddyInfo buddy2 = new BuddyInfo("Jungkook", "123 Korea", "613213321");
